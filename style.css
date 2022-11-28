@@ -1,0 +1,106 @@
+/*
+	Please add your custom CSS in this file. The hex codes for the colours are below.
+
+	Main text color (grey): #838383
+	Dark grey for the speech bubble at the top: #424242
+	Grey border colour for the main content area, and the buttons at the bottom: #DCDCDC
+
+
+	Orange colour for the highlighted "only 3 days left" text and the progress bar: #F15E33
+	The background for the part of the progress bar that isn't filled in: #FAFAFA
+
+
+	Buttons at the bottom: #838383
+	Green button: #00BE1C
+	Green button border: #01B21A
+	"Why give 50" link: #25A5D8
+*/
+
+.body {
+  color: #838383;
+}
+
+.container {
+  height: 40px;
+  padding: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+.box {
+  width: auto;
+  margin: 50px auto;
+  background: #424242;
+  padding: 20px;
+  text-align: center;
+  font-weight: 100;
+  color: #fff;
+  position:relative;
+  border-radius: 2px;
+}
+
+
+.sb1:before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  border-left: 10px solid #424242;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #424242;
+  border-bottom: 10px solid transparent;
+  bottom: -10px;
+  right: 6px;
+}
+
+.container-card {
+  border: 1px solid lightgray;
+  /* border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-radius: 10px; */
+  padding-top:0%;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+
+#myProgress {
+  width: 100%;
+  background-color: #FAFAFA;
+  border: 1px solid lightgray;
+}
+
+#myBar {
+  width: 75%;
+  height: 10px;
+  background-color: #F15E33;
+}
+
+#form {
+  padding-left: 0%;
+}
+.button {
+  width: 50%;
+  min-width: 48px;
+  min-height: 48px;
+  color:#838383;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  outline: none;
+}
+
+#green-button {
+  background-color:#00BE1C;
+  border: #01B21A;
+  border-radius: 2px;
+  height: 40px;
+}
+
+#green-button:hover {
+  background-color:#177a28;
+}
+
+h4 {
+  color: #25A5D8;
+  text-align: left;
+}
